@@ -1,3 +1,15 @@
+import os
+import requests
+
+BOT_TOKEN = os.getenv("8470528189:AAGVLyShr0_dBjuKc5Q62fRXDzPqYD2UYbo")
+CHAT_ID = os.getenv("5128618779
+")
+
+def send_telegram(msg):
+    url = f"https://api.telegram.org/bot{8470528189:AAGVLyShr0_dBjuKc5Q62fRXDzPqYD2UYbo}/sendMessage"
+    requests.post(url, data={"chat_id": 5128618779
+, "text": msg})
+ 
 import ccxt
 import pandas as pd
 import numpy as np
